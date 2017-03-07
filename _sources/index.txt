@@ -19,4 +19,4 @@ licenced under GNU GPL 2 and higher.
 Report bugs
 ^^^^^^^^^^^
 
-Bug reports can be reported at https://github.com/opengeolabs/qgis-safecast-plugin/issues
+Please fill out bug reports at https://github.com/opengeolabs/qgis-safecast-plugin/issues
