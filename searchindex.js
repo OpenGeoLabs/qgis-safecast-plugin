@@ -1,0 +1,1 @@
+Search.setIndex({envversion:46,filenames:["index"],objects:{},objnames:{},objtypes:{},terms:{can:0,code:0,com:0,develop:0,github:0,gnu:0,gpl:0,higher:0,http:0,issu:0,opengeolab:0,souc:0,suro:0,todo:0,under:0},titles:["QGIS Safecast Plugin Documentation"],titleterms:{author:0,bug:0,document:0,licenc:0,plugin:0,qgi:0,report:0,safecast:0}})
