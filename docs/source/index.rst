@@ -1,22 +1,34 @@
 QGIS Safecast Plugin Documentation
 ==================================
 
-TODO
+This plugin allows loading Safecast layers (LOG file) into QGIS as a
+new vector point layer.
 
-Authors
-*******
+.. todo:: Extend this part.
 
-`SURO <http://www.suro.cz>`__
+.. toctree::
+   :maxdepth: 2
+
+   intro
+   tools
+
+Acknowledgement
+***************
+
+Czech National Radiation Protection Institute (`SURO <http://www.suro.cz>`__).
 
 Developed by `OpenGeoLabs <http://opengeolabs.cz>`__.
 
 Licence
 ^^^^^^^
 
-Souce code (https://github.com/opengeolabs/qgis-safecast-plugin)
+Source code (https://github.com/opengeolabs/qgis-safecast-plugin)
 licenced under GNU GPL 2 and higher.
 
-Report bugs
-^^^^^^^^^^^
+Report bugs or enhancements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please fill out bug reports at https://github.com/opengeolabs/qgis-safecast-plugin/issues
+You have found a bug in our software or you wish to implement a new
+feature. Please fill out bug/enhancement issue in `our GitHub
+bug-tracker
+<https://github.com/opengeolabs/qgis-safecast-plugin/issues>`__.
