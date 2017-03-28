@@ -72,7 +72,27 @@ class SafecastLayer(QgsVectorLayer):
                   QgsField("hdop", QVariant.Int),
                   QgsField("checksum", QVariant.String)
         ]
-        # set aliases
+
+        # set aliases when running QGIS 2.18+
+        if hasattr(attrbs[0], "setAlias"):
+            self._setAliases(attrbs)
+
+        # set attributes
+        self._provider.addAttributes(attrbs)
+
+        self.updateFields()
+
+        # open layer in read-only mode
+        self.setReadOnly(True)
+
+        # layer is empty, no data loaded
+        self._loaded = False
+
+    def _setAliases(self, attrbs):
+        """Set aliases
+
+        :params attrbs: list of QgsField instances
+        """
         alias = [self.tr("ADER microSv/h"),
                  self.tr("Local time"),
                  self.tr("Device"),
@@ -97,17 +117,6 @@ class SafecastLayer(QgsVectorLayer):
             field.setAlias(alias[i])
             i += 1
 
-        # set attributes
-        self._provider.addAttributes(attrbs)
-
-        self.updateFields()
-
-        # open layer in read-only mode
-        self.setReadOnly(True)
-
-        # layer is empty, no data loaded
-        self._loaded = False
-        
     def load(self, reader):
         """Load LOG file using specified reader.
 
