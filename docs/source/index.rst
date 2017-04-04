@@ -15,5 +15,6 @@ uploading to `Safecast web map <http://safecast.org/tilemap/>`__.
    :maxdepth: 2
 
    intro
-   plugin-manual
+   installation
+   user-manual
    acknowledgement

@@ -9,8 +9,8 @@
 .. |mDelete| image:: images/tool_delete.png
    :width: 1.5em
 
-Plugin User Manual
-==================
+User Manual
+===========
 
 Load LOG file
 -------------
@@ -65,7 +65,7 @@ offline data (vector or raster files) or to add a layer from online
 map service like `Google <http://maps.google.com>`__ or `OpenStreetMap
 <http://openstreetmap.org>`__, using *OpenLayers plugin*.
 
-Go to ``Plugins / Manage and Install Plugins``:
+Go to :menuselection:`Plugins --> Manage and Install Plugins`:
 
 .. figure:: images/004_plugins_menu.png
 
