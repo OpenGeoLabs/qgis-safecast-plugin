@@ -12,6 +12,7 @@
 # serve to show the default.
 
 import sys, os
+import sphinx_rtd_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -25,7 +26,10 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo', 'sphinx.ext.pngmath', 'sphinx.ext.viewcode']
+sys.path.append(os.path.abspath('extensions'))
+
+extensions = ['sphinx.ext.todo', 'sphinx.ext.pngmath', 'sphinx.ext.viewcode',
+              'autoimage', 'numfig']
 
 todo_include_todos = True
 
@@ -43,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'QGIS Safecast Plugin'
-copyright = u'2016-2017, OpenGeoLabs s.r.o.'
+copyright = u'2016-2017, SURO and OpenGeoLabs'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -93,7 +97,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'default'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
