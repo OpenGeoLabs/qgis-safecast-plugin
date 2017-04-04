@@ -18,8 +18,8 @@ dose rate. The calculation is based on a device calibration, using
 Cs-137 source and a resulting physical variable. A resulting physical
 variable is called for simplicity just "dose rate", although in actual
 truth it is "ambient dose equivalent rate" (`ADER
-<https://en.wikipedia.org/wiki/Absorbed_dose>`__) to be measured in
-*microSv/h* (microSievert per hour).
+<http://www.npl.co.uk/publications/good-practice-online-modules/radiation/practical-radiation-monitoring-units/measurement-of-dose-rate/>`__)
+to be measured in *microSv/h* (microSievert per hour).
 
 The current Safecast solution contains bGeigie portable devices and
 online services to process the measurements and display them in an
