@@ -4,8 +4,8 @@
 
 https://opengeolabs.github.io/qgis-safecast-plugin/
 
-## Authors
+## Acknowledgement
 
-[SURO](http://www.suro.cz)
+National Radiation Protection Institute (SURO), Prague, Czech Republic [SURO](http://www.suro.cz)
 
 Developed by [OpenGeoLabs s.r.o.](http://opengeolabs.cz)
