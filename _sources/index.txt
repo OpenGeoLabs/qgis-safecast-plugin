@@ -1,22 +1,20 @@
 QGIS Safecast Plugin Documentation
 ==================================
 
-TODO
+This plugin allows to easily load data from `Safecast
+<https://en.wikipedia.org/wiki/Safecast_(organization)>`__ radiation
+monitoring devices (LOG file) like :ref:`bGeigie Nano <bgeigie>` into
+QGIS as a new vector point layer. The data are loaded using predefined
+color style.
 
-Authors
-*******
+The user can, if necessary, easily select and remove unwanted parts of
+the measurement set and save the corrected set as a new LOG file for
+uploading to `Safecast web map <http://safecast.org/tilemap/>`__.
 
-`SURO <http://www.suro.cz>`__
+.. toctree::
+   :maxdepth: 2
 
-Developed by `OpenGeoLabs <http://opengeolabs.cz>`__.
-
-Licence
-^^^^^^^
-
-Souce code (https://github.com/opengeolabs/qgis-safecast-plugin)
-licenced under GNU GPL 2 and higher.
-
-Report bugs
-^^^^^^^^^^^
-
-Please fill out bug reports at https://github.com/opengeolabs/qgis-safecast-plugin/issues
+   intro
+   installation
+   user-manual
+   acknowledgement
