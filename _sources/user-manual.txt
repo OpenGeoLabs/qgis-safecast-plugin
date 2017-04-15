@@ -4,7 +4,7 @@
    :width: 1.5em
 .. |mSelect| image:: images/tool_select.png
    :width: 1.5em
-.. |mDeselect| image:: images/tool_deselect.png
+.. |mDeselect| image:: images/tool_cut_deselect.png
    :width: 1.5em
 .. |mDelete| image:: images/tool_delete.png
    :width: 1.5em
