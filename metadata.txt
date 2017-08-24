@@ -7,14 +7,16 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=Safecast
+name=Safecast Plugin
 qgisMinimumVersion=2.14
-description=Safecast Plugin
+description=Plugin for loading data from Safecast radiation monitoring devices
 version=0.9beta
 author=OpenGeoLabs s.r.o.
 email=martin.landa@opengeolabs.cz
 
-about=Safecast plugin.
+about=This plugin allows to easily load data from Safecast radiation
+monitoring devices (LOG file) like bGeigie Nano into QGIS as a new
+vector point layer.
 
 tracker=https://github.com/OpenGeoLabs/qgis-safecast-plugin/issues
 repository=https://github.com/OpenGeoLabs/qgis-safecast-plugin
@@ -28,7 +30,7 @@ repository=https://github.com/OpenGeoLabs/qgis-safecast-plugin
 # Tags are comma separated with spaces allowed
 tags=vector,safecast
 
-homepage=https://github.com/OpenGeoLabs/qgis-safecast-plugin
+homepage=https://opengeolabs.github.io/qgis-safecast-plugin/
 category=Plugins
 icon=icon.png
 # experimental flag
