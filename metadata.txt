@@ -10,7 +10,7 @@
 name=Safecast
 qgisMinimumVersion=2.14
 description=Safecast Plugin
-version=0.9beta
+version=1.0.0
 author=OpenGeoLabs s.r.o.
 email=martin.landa@opengeolabs.cz
 
@@ -32,7 +32,7 @@ homepage=https://github.com/OpenGeoLabs/qgis-safecast-plugin
 category=Plugins
 icon=icon.png
 # experimental flag
-experimental=True
+experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
