@@ -12,9 +12,9 @@ qgisMinimumVersion=2.14
 description=Plugin for loading data from Safecast radiation monitoring devices
 version=1.0.0
 author=OpenGeoLabs s.r.o.
-email=martin.landa@opengeolabs.cz
+email=info@opengeolabs.cz
 
-about=This plugin allows to easily load data from Safecast radiation monitoring devices (LOG file) like bGeigie Nano into QGIS as a new vector point layer.
+about=This plugin allows to easily load data from Safecast radiation monitoring devices (LOG file) like bGeigie Nano into QGIS as a new vector point layer. Developed by OpenGeoLabs s.r.o for National Radiation Protection Institute (SURO), Prague, Czech Republic (SURO).
 
 tracker=https://github.com/OpenGeoLabs/qgis-safecast-plugin/issues
 repository=https://github.com/OpenGeoLabs/qgis-safecast-plugin
