@@ -30,5 +30,5 @@ def classFactory(iface):  # pylint: disable=invalid-name
     :type iface: QgsInterface
     """
     #
-    from .safecast_plugin import Safecast
-    return Safecast(iface)
+    from .radiation_toolbox import RadiationToolbox
+    return RadiationToolbox(iface)

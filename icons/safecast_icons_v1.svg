@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="QGIS_SAFECAST_icon_v03_devel.svg"
+   viewBox="0 0 87.999995 52"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   width="88"
+   height="52"
+   inkscape:export-filename="/media/sdb1/_SURO/QGIS_leveling_ikona_v1/QGIS_leveling_ikona_v3.svg.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="0"
+     pagecolor="#ffffff"
+     inkscape:window-height="1125"
+     inkscape:window-maximized="1"
+     inkscape:zoom="2.2187936"
+     inkscape:window-x="0"
+     inkscape:snap-bbox="false"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="g938"
+     inkscape:cx="11.889403"
+     inkscape:cy="-66.929489"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:window-width="1920"
+     inkscape:pageopacity="0"
+     inkscape:document-units="px"
+     showguides="true"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-bottom="10"
+     fit-margin-right="10" />
+  <metadata
+     id="metadata112">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="podklad"
+     style="display:inline"
+     transform="translate(-1041.6356,75.437587)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="ikony"
+     transform="translate(-1041.6356,75.437587)">
+    <g
+       id="g9895"
+       transform="translate(-9.2934034,-166.47314)">
+      <rect
+         style="fill:#ffcc00;fill-opacity:1"
+         id="rect9897"
+         width="32"
+         height="32"
+         x="1060.929"
+         y="101.03555"
+         ry="0" />
+      <g
+         id="g9899"
+         transform="matrix(0.58661976,0,0,0.58661976,402.62861,148.80701)">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="m 1142.7865,-55.414691 c 0,-2.470962 1.3138,-4.635182 3.2809,-5.832131 l -8.074,-14.864049 c -7.2293,4.065713 -12.1137,11.810971 -12.1137,20.69618 h 16.907 z"
+           id="path9901" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="m 1153.3597,-49.316122 c -2.1404,1.235902 -4.6718,1.180338 -6.6924,0.07504 l -8.8372,14.429822 c 7.1377,4.228443 16.2882,4.585942 23.9845,0.141651 l -8.4552,-14.648201 z"
+           id="path9903" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="m 1153.283,-62.055411 c 2.1406,1.235734 3.3586,3.456193 3.4117,5.75886 l 16.9146,0.438527 c 0.093,-8.2966 -4.1745,-16.400285 -11.8717,-20.843733 l -8.4535,14.646515 z"
+           id="path9905" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="m 1149.8184,-50.668549 c 2.621,0 4.7458,-2.124845 4.7458,-4.745889 0,-2.62096 -2.1248,-4.745805 -4.7458,-4.745805 -2.6209,0 -4.7458,2.124845 -4.7458,4.745805 0,2.621044 2.1249,4.745889 4.7458,4.745889 z"
+           id="path9907" />
+      </g>
+    </g>
+    <g
+       transform="translate(26.706597,-166.47314)"
+       id="g938">
+      <g
+         id="g946"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <rect
+           style="fill:#ff0000;fill-opacity:1"
+           id="rect926"
+           width="32"
+           height="32"
+           x="1060.929"
+           y="101.03555"
+           ry="0" />
+        <g
+           id="g936"
+           transform="matrix(0.58661976,0,0,0.58661976,402.62861,148.80701)">
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#000000"
+             d="m 1142.7865,-55.414691 c 0,-2.470962 1.3138,-4.635182 3.2809,-5.832131 l -8.074,-14.864049 c -7.2293,4.065713 -12.1137,11.810971 -12.1137,20.69618 h 16.907 z"
+             id="path928" />
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#000000"
+             d="m 1153.3597,-49.316122 c -2.1404,1.235902 -4.6718,1.180338 -6.6924,0.07504 l -8.8372,14.429822 c 7.1377,4.228443 16.2882,4.585942 23.9845,0.141651 l -8.4552,-14.648201 z"
+             id="path930" />
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#000000"
+             d="m 1153.283,-62.055411 c 2.1406,1.235734 3.3586,3.456193 3.4117,5.75886 l 16.9146,0.438527 c 0.093,-8.2966 -4.1745,-16.400285 -11.8717,-20.843733 l -8.4535,14.646515 z"
+             id="path932" />
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#000000"
+             d="m 1149.8184,-50.668549 c 2.621,0 4.7458,-2.124845 4.7458,-4.745889 0,-2.62096 -2.1248,-4.745805 -4.7458,-4.745805 -2.6209,0 -4.7458,2.124845 -4.7458,4.745805 0,2.621044 2.1249,4.745889 4.7458,4.745889 z"
+             id="path934" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

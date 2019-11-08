@@ -1,0 +1,23 @@
+attribute;qtype;alias
+ader_microsvh;Double;ADER (microSv/h)
+time_local;String;Local time
+speed_kmph;Double;Speed (km/h)
+dose_increment;Double;Increment DOSE
+time_cumulative;String;Cumulative time
+dose_cumulative;Double;Cumulative DOSE
+device;String;Device
+device_id;Int;Device ID
+date_time;String;Datetime
+cpm;Int;CPM
+pulses5s;Int;Pulses 5sec
+pulses_total;Int;Pulses total
+validity;String;Validity
+lat_deg;String;Latitude (deg)
+hemisphere;String;Hemisphere
+long_deg;String;Longitude (deg)
+east_west;String;East/West
+altitude;Double;Altitude
+gps_validity;String;GPS Validity
+sat;Int;Sat
+hdop;Int;HDOP
+checksum;String;CheckSum
