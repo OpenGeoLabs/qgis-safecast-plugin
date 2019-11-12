@@ -1,16 +1,20 @@
-"""Safecast Reader Library
+"""Reader Library
 
-(C) 2015-2016 by OpenGeoLabs s.r.o.
+(C) 2015-2019 by OpenGeoLabs s.r.o.
 
 Read the file LICENCE.md for details.
 
 .. sectionauthor:: Martin Landa <martin.landa opengeolabs.cz>
 """
+from builtins import str
+from builtins import range
+from builtins import object
 
 import os
 import logging
+from future.utils import with_metaclass
 
-BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = range(8)
+BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = list(range(8))
 
 RESET_SEQ = "\033[0m"
 COLOR_SEQ = "\033[1;%dm"
@@ -35,7 +39,7 @@ class Singleton(type):
     _instances = {}
 
     def __call__(cls, *args, **kwargs):
-        if cls not in cls._instances.keys():
+        if cls not in list(cls._instances.keys()):
             cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
         return cls._instances[cls]
 
@@ -66,9 +70,7 @@ class ColoredLogger(logging.Logger):
 
         return
 
-class LoggerManager(object):
-    __metaclass__ = Singleton
-
+class LoggerManager(with_metaclass(Singleton, object)):
     _loggers = {}
 
     def __init__(self, *args, **kwargs):
@@ -79,9 +81,9 @@ class LoggerManager(object):
         if not name:
             logging.basicConfig()
             return logging.getLogger()
-        elif name not in LoggerManager._loggers.keys():
+        elif name not in list(LoggerManager._loggers.keys()):
             logging.basicConfig()
             LoggerManager._loggers[name] = logging.getLogger(str(name))
         return LoggerManager._loggers[name]
 
-SafecastReaderLogger=LoggerManager().getLogger("SafeCastImporter")
+ReaderLogger=LoggerManager().getLogger("RadiationToolboxImporter")

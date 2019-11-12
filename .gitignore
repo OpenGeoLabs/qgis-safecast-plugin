@@ -1,3 +1,4 @@
-*.pyc
 *~
-docs/build
+help/build
+*.bak
+__pycache__/

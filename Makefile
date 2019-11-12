@@ -1,12 +1,12 @@
 #/***************************************************************************
-# Safecast
+# RadiationToolbox
 #
-# Safecast Plugin
+# Radiation Toolbox
 #							 -------------------
 #		begin				: 2016-05-25
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2016 by OpenGeoLabs s.r.o.
-#		email				: martin.landa@opengeolabs.cz
+#		copyright			: (C) 2016-2019 by OpenGeoLabs
+#		email				: info@opengeolabs.cz
 # ***************************************************************************/
 #
 #/***************************************************************************
@@ -25,33 +25,36 @@
 
 #Add iso code for any locales you want to support here (space separated)
 # default is no locales
-LOCALES = cs
+# LOCALES = af
+LOCALES = radiation_toolbox_cs
 
 # If locales are enabled, set the name of the lrelease binary on your system. If
 # you have trouble compiling the translations, you may have to specify the full path to
 # lrelease
-#LRELEASE = lrelease
+LRELEASE = lrelease
 #LRELEASE = lrelease-qt4
 
 
 # translation
 SOURCES = \
 	__init__.py \
-	safecast_plugin.py safecast_dockwidget.py
+	radiation_toolbox.py radiation_toolbox_dockwidget.py
 
-PLUGINNAME = Safecast
+PLUGINNAME = Radiation Toolbox
 
 PY_FILES = \
 	__init__.py \
-	safecast_plugin.py safecast_dockwidget.py
+	radiation_toolbox.py radiation_toolbox_dockwidget.py
 
-UI_FILES = safecast_dockwidget_base.ui
+UI_FILES = radiation_toolbox_dockwidget_base.ui
 
 EXTRAS = metadata.txt icon.png
 
-COMPILED_RESOURCE_FILES = resources_rc.py
+EXTRA_DIRS =
 
-PEP8EXCLUDE=pydev,resources_rc.py,conf.py,third_party,ui
+COMPILED_RESOURCE_FILES = resources.py
+
+PEP8EXCLUDE=pydev,resources.py,conf.py,third_party,ui
 
 
 #################################################
@@ -70,8 +73,8 @@ default: compile
 
 compile: $(COMPILED_RESOURCE_FILES)
 
-%_rc.py : %.qrc $(RESOURCES_SRC)
-	pyrcc4 -o $*_rc.py  $<
+%.py : %.qrc $(RESOURCES_SRC)
+	pyrcc5 -o $*.py  $<
 
 %.qm : %.ts
 	$(LRELEASE) $<
@@ -109,6 +112,9 @@ deploy: compile doc transcompile
 	cp -vf $(EXTRAS) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr i18n $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)
 	cp -vfr $(HELP) $(HOME)/$(QGISDIR)/python/plugins/$(PLUGINNAME)/help
+	# Copy extra directories if any
+	(foreach EXTRA_DIR,(EXTRA_DIRS), cp -R (EXTRA_DIR) (HOME)/(QGISDIR)/python/plugins/(PLUGINNAME)/;)
+
 
 # The dclean target removes compiled python files from plugin directory
 # also deletes any .git entry
