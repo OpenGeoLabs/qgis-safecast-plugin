@@ -2,3 +2,5 @@
 help/build
 *.bak
 __pycache__/
+qgis-safecast-plugin.zip
+qwt/
